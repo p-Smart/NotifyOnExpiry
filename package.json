@@ -1,0 +1,41 @@
+{
+  "name": "notify-on-expiry",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@faker-js/faker": "^7.6.0",
+    "@iconify/react": "^4.1.0",
+    "@mui/base": "^5.0.0-beta.0",
+    "@mui/lab": "^5.0.0-alpha.129",
+    "@mui/material": "^5.13.0",
+    "@mui/system": "^5.12.3",
+    "@mui/x-date-pickers": "latest",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "change-case": "^4.1.2",
+    "cookie": "^0.5.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.7",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "formik": "^2.2.9",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.1.1",
+    "next": "13.4.1",
+    "nodemailer": "^6.9.2",
+    "numeral": "^2.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "simplebar-react": "^3.2.4",
+    "yup": "^1.1.1"
+  }
+}
