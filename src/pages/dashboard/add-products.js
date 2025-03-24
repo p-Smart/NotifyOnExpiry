@@ -50,19 +50,19 @@ const Page = ({data}) => {
         <Container maxWidth="lg">
         <Stack direction="row" alignItems="center" justifyContent="space-between" mb={5}>
           <Typography variant="h4" gutterBottom>
-            Add New Products
+            Add New Produces
           </Typography>
           <Link href='/dashboard/products'>
           <Button variant="contained">
-            View All Products
+            View All Produces
           </Button>
           </Link>
         </Stack>
         <Card>
           <div>
           <Tabs value={selectedTab} onChange={handleTabChange}>
-            <Tab label="Add Product Manually" />
-            <Tab label="Scan Barcode" />
+            <Tab label="Add Produces Manually" />
+            <Tab label="Upload Produce From CSV" />
           </Tabs>
           <CardContent sx={{ pt: 0 }}>
           {/* Add Product Manually Tab */}

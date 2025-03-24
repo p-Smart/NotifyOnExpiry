@@ -33,7 +33,7 @@ export default function Page({data}) {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={3}>
           <Link href='/dashboard/products'>
-            <AppWidgetSummary title="Total Products" total={data?.totalProd || 0} icon={'ph:package-fill'} />
+            <AppWidgetSummary title="Total Produces" total={data?.totalProd || 0} icon={'ph:package-fill'} />
           </Link>
           </Grid>
 
@@ -47,13 +47,13 @@ export default function Page({data}) {
 
           <Grid item xs={12} sm={6} md={3}>
             <Link href='/dashboard/products/expired-products'>
-              <AppWidgetSummary title="Expired Products" total={data?.expiredProd || 0} color="error" icon={'el:warning-sign'} />
+              <AppWidgetSummary title="Expired Produces" total={data?.expiredProd || 0} color="error" icon={'el:warning-sign'} />
             </Link>
           </Grid>
 
           <Grid item xs={12}>
             <Recents
-              title="Newly Added Products"
+              title="Newly Added Produces"
               list={data.recentProd.map( ({prod_name, created_at}, k) => ({
                 id: k,
                 title: prod_name,
